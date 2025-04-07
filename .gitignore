@@ -1,0 +1,6 @@
+# Ghidra Files not allowed
+Reverse-Morph.rep/*
+
+Reverse-Morph.gpr
+Reverse-Morph.lock
+Reverse-Morph.lock~

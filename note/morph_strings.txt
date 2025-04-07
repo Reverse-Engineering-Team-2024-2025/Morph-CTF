@@ -1,0 +1,63 @@
+/lib64/ld-linux-x86-64.so.2
+libc.so.6
+exit
+srand
+puts
+time
+mmap
+strlen
+memcpy
+malloc
+__cxa_finalize
+__libc_start_main
+_ITM_deregisterTMCloneTable
+__gmon_start__
+_Jv_RegisterClasses
+_ITM_registerTMCloneTable
+GLIBC_2.14
+GLIBC_2.2.5
+AWAVA
+AUATL
+[]A\A]A^A_
+ ""ea
+Cx?K
+0FDD
+Ri<Z
+6WUU04
+4dff!%
+6uww
+ !!d`
+6BCC
+Shu[
+0UTT37
+bYDj
+6dee $
+4wvv
+What are you waiting for, go submit that flag!
+;*3$"
+GCC: (Ubuntu 6.3.0-12ubuntu2) 6.3.0 20170406
+.shstrtab
+.interp
+.note.ABI-tag
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rela.dyn
+.init
+.plt
+.plt.got
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.init_array
+.fini_array
+.jcr
+.dynamic
+.data
+.bss
+.comment
