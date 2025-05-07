@@ -1,0 +1,200 @@
+2025-05-06 13:48:11,240 - INFO - [*] Disable ASLR...
+2025-05-06 13:48:11,256 - INFO - [*] Generated flag: qOp6MnPxEKr9fKp1wuGIFJt
+2025-05-06 13:48:12,689 - INFO - [*] Open Radare2 with dynamic debugging ! with PID : 6469
+
+2025-05-06 13:48:12,689 - INFO - [*] init debugger profiling 
+2025-05-06 13:48:12,690 - INFO - [*] First Analysis of the script ...
+2025-05-06 13:48:14,134 - INFO - [*] reach main function! 
+2025-05-06 13:48:14,880 - INFO - [*] Set break point to 'call rax' functions
+2025-05-06 13:48:15,633 - INFO - [*] Set break point to '' functions
+2025-05-06 13:48:15,634 - INFO - [*] Before check flags 
+2025-05-06 13:48:15,987 - INFO - [**] value to compare: 0x43
+2025-05-06 13:48:16,051 - INFO - [*] hexdecimal value of input string : 71
+2025-05-06 13:48:16,133 - INFO - 
+ After Change the character :
+
+2025-05-06 13:48:16,183 - INFO - 
+ COp6MnPxEKr9fKp1wuGIFJt 
+
+2025-05-06 13:48:16,540 - INFO - [**] value to compare: 0x5f
+2025-05-06 13:48:16,612 - INFO - [*] hexdecimal value of input string : 45
+2025-05-06 13:48:16,700 - INFO - 
+ After Change the character :
+
+2025-05-06 13:48:16,753 - INFO - 
+ COp6MnPx_Kr9fKp1wuGIFJt 
+
+2025-05-06 13:48:17,072 - INFO - [**] value to compare: 0x33
+2025-05-06 13:48:17,111 - INFO - [*] hexdecimal value of input string : 47
+2025-05-06 13:48:17,161 - INFO - 
+ After Change the character :
+
+2025-05-06 13:48:17,189 - INFO - 
+ COp6MnPx_Kr9fKp1wu3IFJt 
+
+2025-05-06 13:48:17,509 - INFO - [**] value to compare: 0x54
+2025-05-06 13:48:17,547 - INFO - [*] hexdecimal value of input string : 36
+2025-05-06 13:48:17,586 - INFO - 
+ After Change the character :
+
+2025-05-06 13:48:17,615 - INFO - 
+ COpTMnPx_Kr9fKp1wu3IFJt 
+
+2025-05-06 13:48:17,914 - INFO - [**] value to compare: 0x7a
+2025-05-06 13:48:17,954 - INFO - [*] hexdecimal value of input string : 78
+2025-05-06 13:48:18,010 - INFO - 
+ After Change the character :
+
+2025-05-06 13:48:18,047 - INFO - 
+ COpTMnPz_Kr9fKp1wu3IFJt 
+
+2025-05-06 13:48:18,458 - INFO - [**] value to compare: 0x72
+2025-05-06 13:48:18,565 - INFO - [*] hexdecimal value of input string : 39
+2025-05-06 13:48:18,683 - INFO - 
+ After Change the character :
+
+2025-05-06 13:48:18,734 - INFO - 
+ COpTMnPz_KrrfKp1wu3IFJt 
+
+2025-05-06 13:48:19,032 - INFO - [**] value to compare: 0x21
+2025-05-06 13:48:19,069 - INFO - [*] hexdecimal value of input string : 4a
+2025-05-06 13:48:19,113 - INFO - 
+ After Change the character :
+
+2025-05-06 13:48:19,138 - INFO - 
+ COpTMnPz_KrrfKp1wu3IF!t 
+
+2025-05-06 13:48:19,426 - INFO - [**] value to compare: 0x30
+2025-05-06 13:48:19,463 - INFO - [*] hexdecimal value of input string : 72
+2025-05-06 13:48:19,510 - INFO - 
+ After Change the character :
+
+2025-05-06 13:48:19,537 - INFO - 
+ COpTMnPz_K0rfKp1wu3IF!t 
+
+2025-05-06 13:48:19,826 - INFO - [**] value to compare: 0x7b
+2025-05-06 13:48:19,865 - INFO - [*] hexdecimal value of input string : 4d
+2025-05-06 13:48:19,913 - INFO - 
+ After Change the character :
+
+2025-05-06 13:48:19,940 - INFO - 
+ COpT{nPz_K0rfKp1wu3IF!t 
+
+2025-05-06 13:48:20,231 - INFO - [**] value to compare: 0x49
+2025-05-06 13:48:20,277 - INFO - [*] hexdecimal value of input string : 70
+2025-05-06 13:48:20,326 - INFO - 
+ After Change the character :
+
+2025-05-06 13:48:20,360 - INFO - 
+ COIT{nPz_K0rfKp1wu3IF!t 
+
+2025-05-06 13:48:20,669 - INFO - [**] value to compare: 0x5f
+2025-05-06 13:48:20,714 - INFO - [*] hexdecimal value of input string : 70
+2025-05-06 13:48:20,785 - INFO - 
+ After Change the character :
+
+2025-05-06 13:48:20,841 - INFO - 
+ COIT{nPz_K0rfK_1wu3IF!t 
+
+2025-05-06 13:48:21,234 - INFO - [**] value to compare: 0x74
+2025-05-06 13:48:21,281 - INFO - [*] hexdecimal value of input string : 50
+2025-05-06 13:48:21,347 - INFO - 
+ After Change the character :
+
+2025-05-06 13:48:21,386 - INFO - 
+ COIT{ntz_K0rfK_1wu3IF!t 
+
+2025-05-06 13:48:21,698 - INFO - [**] value to compare: 0x70
+2025-05-06 13:48:21,749 - INFO - [*] hexdecimal value of input string : 66
+2025-05-06 13:48:21,814 - INFO - 
+ After Change the character :
+
+2025-05-06 13:48:21,852 - INFO - 
+ COIT{ntz_K0rpK_1wu3IF!t 
+
+2025-05-06 13:48:22,189 - INFO - [**] value to compare: 0x33
+2025-05-06 13:48:22,236 - INFO - [*] hexdecimal value of input string : 31
+2025-05-06 13:48:22,283 - INFO - 
+ After Change the character :
+
+2025-05-06 13:48:22,316 - INFO - 
+ COIT{ntz_K0rpK_3wu3IF!t 
+
+2025-05-06 13:48:22,667 - INFO - [**] value to compare: 0x69
+2025-05-06 13:48:22,732 - INFO - [*] hexdecimal value of input string : 6e
+2025-05-06 13:48:22,781 - INFO - 
+ After Change the character :
+
+2025-05-06 13:48:22,806 - INFO - 
+ COIT{itz_K0rpK_3wu3IF!t 
+
+2025-05-06 13:48:23,101 - INFO - [**] value to compare: 0x68
+2025-05-06 13:48:23,147 - INFO - [*] hexdecimal value of input string : 4b
+2025-05-06 13:48:23,213 - INFO - 
+ After Change the character :
+
+2025-05-06 13:48:23,253 - INFO - 
+ COIT{itz_K0rph_3wu3IF!t 
+
+2025-05-06 13:48:23,655 - INFO - [**] value to compare: 0x6d
+2025-05-06 13:48:23,718 - INFO - [*] hexdecimal value of input string : 4b
+2025-05-06 13:48:23,760 - INFO - 
+ After Change the character :
+
+2025-05-06 13:48:23,781 - INFO - 
+ COIT{itz_m0rph_3wu3IF!t 
+
+2025-05-06 13:48:24,148 - INFO - [**] value to compare: 0x34
+2025-05-06 13:48:24,241 - INFO - [*] hexdecimal value of input string : 77
+2025-05-06 13:48:24,327 - INFO - 
+ After Change the character :
+
+2025-05-06 13:48:24,355 - INFO - 
+ COIT{itz_m0rph_34u3IF!t 
+
+2025-05-06 13:48:24,763 - INFO - [**] value to compare: 0x7d
+2025-05-06 13:48:24,876 - INFO - [*] hexdecimal value of input string : 74
+2025-05-06 13:48:25,014 - INFO - 
+ After Change the character :
+
+2025-05-06 13:48:25,095 - INFO - 
+ COIT{itz_m0rph_34u3IF!} 
+
+2025-05-06 13:48:25,529 - INFO - [**] value to compare: 0x43
+2025-05-06 13:48:25,640 - INFO - [*] hexdecimal value of input string : 4f
+2025-05-06 13:48:25,778 - INFO - 
+ After Change the character :
+
+2025-05-06 13:48:25,860 - INFO - 
+ CCIT{itz_m0rph_34u3IF!} 
+
+2025-05-06 13:48:26,317 - INFO - [**] value to compare: 0x43
+2025-05-06 13:48:26,429 - INFO - [*] hexdecimal value of input string : 75
+2025-05-06 13:48:26,566 - INFO - 
+ After Change the character :
+
+2025-05-06 13:48:26,650 - INFO - 
+ CCIT{itz_m0rph_34C3IF!} 
+
+2025-05-06 13:48:27,105 - INFO - [**] value to compare: 0x21
+2025-05-06 13:48:27,214 - INFO - [*] hexdecimal value of input string : 46
+2025-05-06 13:48:27,352 - INFO - 
+ After Change the character :
+
+2025-05-06 13:48:27,436 - INFO - 
+ CCIT{itz_m0rph_34C3I!!} 
+
+2025-05-06 13:48:27,832 - INFO - [**] value to compare: 0x21
+2025-05-06 13:48:27,896 - INFO - [*] hexdecimal value of input string : 49
+2025-05-06 13:48:27,974 - INFO - 
+ After Change the character :
+
+2025-05-06 13:48:28,022 - INFO - 
+ CCIT{itz_m0rph_34C3!!!} 
+
+2025-05-06 13:48:28,349 - INFO - [***] Flag to submit to challenge : CCIT{itz_m0rph_34C3!!!}
+2025-05-06 13:48:28,690 - INFO - [***] Check the flag to the morph file ...
+2025-05-06 13:48:28,691 - INFO - [***] Run moprh file with a false ...
+2025-05-06 13:48:28,697 - ERROR - Invalid flag attempted: qOp6MnPxEKr9fKp1wuGIFJt
+2025-05-06 13:48:28,698 - INFO - [***] Run moprh with the true flag ...
+2025-05-06 13:48:28,704 - INFO - Successfully executed morph with flag: CCIT{itz_m0rph_34C3!!!}

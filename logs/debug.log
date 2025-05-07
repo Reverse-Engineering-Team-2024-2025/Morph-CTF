@@ -1,0 +1,518 @@
+2025-05-06 13:48:11,240 - INFO - [*] Disable ASLR...
+2025-05-06 13:48:11,256 - INFO - [*] Generated flag: qOp6MnPxEKr9fKp1wuGIFJt
+2025-05-06 13:48:12,689 - INFO - [*] Open Radare2 with dynamic debugging ! with PID : 6469
+
+2025-05-06 13:48:12,689 - INFO - [*] init debugger profiling 
+2025-05-06 13:48:12,690 - INFO - [*] First Analysis of the script ...
+2025-05-06 13:48:14,133 - DEBUG - Valore Address : 0x555555400a76
+2025-05-06 13:48:14,134 - INFO - [*] reach main function! 
+2025-05-06 13:48:14,873 - DEBUG - Linee di function_analyze_strings : 
+
+2025-05-06 13:48:14,874 - DEBUG - 084: │     │╎│   0x555555400b95      ffd0           call rax
+2025-05-06 13:48:14,874 - DEBUG -  → Imposto breakpoint a: 0x555555400b95
+
+2025-05-06 13:48:14,876 - DEBUG - 098: │    │ ╎│   0x555555400bc6      ffd0           call rax
+2025-05-06 13:48:14,876 - DEBUG -  → Imposto breakpoint a: 0x555555400bc6
+
+2025-05-06 13:48:14,879 - DEBUG - Breakpoints impostati agli indirizzi:
+2025-05-06 13:48:14,879 - DEBUG -  • 0x555555400b95
+2025-05-06 13:48:14,880 - DEBUG -  • 0x555555400bc6
+2025-05-06 13:48:14,880 - INFO - [*] Set break point to 'call rax' functions
+2025-05-06 13:48:15,629 - DEBUG - 104: │           0x555555400bd6      488d3d930300.  lea rdi, qword str.What_are_you_waiting_for__go_submit_that_flag ; 0x555555400f70 ; "What are you waiting for, go submit that flag!"
+2025-05-06 13:48:15,630 - DEBUG -  → Imposto breakpoint a: 0x555555400bd6
+
+2025-05-06 13:48:15,632 - DEBUG - Breakpoints impostati agli indirizzi:
+2025-05-06 13:48:15,632 - DEBUG -  • 0x555555400bd6
+2025-05-06 13:48:15,633 - INFO - [*] Set break point to '' functions
+2025-05-06 13:48:15,634 - DEBUG - Value of rip register : 0x555555400a76
+2025-05-06 13:48:15,634 - INFO - [*] Before check flags 
+2025-05-06 13:48:15,881 - DEBUG - Valore di current_line_address : 0x555555400b95
+2025-05-06 13:48:15,881 - DEBUG - Value of rip register : 0x555555400b95
+2025-05-06 13:48:15,881 - DEBUG - Value of rip register , first break point  : 0x555555400b95
+2025-05-06 13:48:15,882 - DEBUG - Value of RDI register : 0x7fffffffd8e7
+2025-05-06 13:48:15,986 - DEBUG - 
+ Lines of assembly blocking 
+
+2025-05-06 13:48:15,987 - DEBUG -             ;-- rax:
+            0x7ffff7ffb000      56             push rsi
+            0x7ffff7ffb001      52             push rdx
+            0x7ffff7ffb002      8a07           mov al, byte [rdi]
+            0x7ffff7ffb004      3c43           cmp al, 0x43            ; 67
+
+2025-05-06 13:48:15,987 - INFO - [**] value to compare: 0x43
+2025-05-06 13:48:16,051 - INFO - [*] hexdecimal value of input string : 71
+2025-05-06 13:48:16,133 - INFO - 
+ After Change the character :
+
+2025-05-06 13:48:16,183 - INFO - 
+ COp6MnPxEKr9fKp1wuGIFJt 
+
+2025-05-06 13:48:16,432 - DEBUG - Valore di current_line_address : 0x555555400b95
+2025-05-06 13:48:16,433 - DEBUG - Value of rip register : 0x555555400b95
+2025-05-06 13:48:16,433 - DEBUG - Value of rip register , first break point  : 0x555555400b95
+2025-05-06 13:48:16,434 - DEBUG - Value of RDI register : 0x7fffffffd8ef
+2025-05-06 13:48:16,540 - DEBUG - 
+ Lines of assembly blocking 
+
+2025-05-06 13:48:16,540 - DEBUG -             ;-- rax:
+            0x7ffff7ffb088      56             push rsi
+            0x7ffff7ffb089      52             push rdx
+            0x7ffff7ffb08a      8a07           mov al, byte [rdi]
+            0x7ffff7ffb08c      3c5f           cmp al, 0x5f            ; 95
+
+2025-05-06 13:48:16,540 - INFO - [**] value to compare: 0x5f
+2025-05-06 13:48:16,612 - INFO - [*] hexdecimal value of input string : 45
+2025-05-06 13:48:16,700 - INFO - 
+ After Change the character :
+
+2025-05-06 13:48:16,753 - INFO - 
+ COp6MnPx_Kr9fKp1wuGIFJt 
+
+2025-05-06 13:48:17,007 - DEBUG - Valore di current_line_address : 0x555555400b95
+2025-05-06 13:48:17,007 - DEBUG - Value of rip register : 0x555555400b95
+2025-05-06 13:48:17,007 - DEBUG - Value of rip register , first break point  : 0x555555400b95
+2025-05-06 13:48:17,007 - DEBUG - Value of RDI register : 0x7fffffffd8f9
+2025-05-06 13:48:17,072 - DEBUG - 
+ Lines of assembly blocking 
+
+2025-05-06 13:48:17,072 - DEBUG -             ;-- rax:
+            0x7ffff7ffb132      56             push rsi
+            0x7ffff7ffb133      52             push rdx
+            0x7ffff7ffb134      8a07           mov al, byte [rdi]
+            0x7ffff7ffb136      3c33           cmp al, 0x33            ; rdx
+
+2025-05-06 13:48:17,072 - INFO - [**] value to compare: 0x33
+2025-05-06 13:48:17,111 - INFO - [*] hexdecimal value of input string : 47
+2025-05-06 13:48:17,161 - INFO - 
+ After Change the character :
+
+2025-05-06 13:48:17,189 - INFO - 
+ COp6MnPx_Kr9fKp1wu3IFJt 
+
+2025-05-06 13:48:17,417 - DEBUG - Valore di current_line_address : 0x555555400b95
+2025-05-06 13:48:17,417 - DEBUG - Value of rip register : 0x555555400b95
+2025-05-06 13:48:17,417 - DEBUG - Value of rip register , first break point  : 0x555555400b95
+2025-05-06 13:48:17,418 - DEBUG - Value of RDI register : 0x7fffffffd8ea
+2025-05-06 13:48:17,509 - DEBUG - 
+ Lines of assembly blocking 
+
+2025-05-06 13:48:17,509 - DEBUG -             ;-- rax:
+            0x7ffff7ffb033      56             push rsi
+            0x7ffff7ffb034      52             push rdx
+            0x7ffff7ffb035      8a07           mov al, byte [rdi]
+            0x7ffff7ffb037      3c54           cmp al, 0x54            ; 84
+
+2025-05-06 13:48:17,509 - INFO - [**] value to compare: 0x54
+2025-05-06 13:48:17,547 - INFO - [*] hexdecimal value of input string : 36
+2025-05-06 13:48:17,586 - INFO - 
+ After Change the character :
+
+2025-05-06 13:48:17,615 - INFO - 
+ COpTMnPx_Kr9fKp1wu3IFJt 
+
+2025-05-06 13:48:17,847 - DEBUG - Valore di current_line_address : 0x555555400b95
+2025-05-06 13:48:17,847 - DEBUG - Value of rip register : 0x555555400b95
+2025-05-06 13:48:17,847 - DEBUG - Value of rip register , first break point  : 0x555555400b95
+2025-05-06 13:48:17,848 - DEBUG - Value of RDI register : 0x7fffffffd8ee
+2025-05-06 13:48:17,914 - DEBUG - 
+ Lines of assembly blocking 
+
+2025-05-06 13:48:17,914 - DEBUG -             ;-- rax:
+            0x7ffff7ffb077      56             push rsi
+            0x7ffff7ffb078      52             push rdx
+            0x7ffff7ffb079      8a07           mov al, byte [rdi]
+            0x7ffff7ffb07b      3c7a           cmp al, 0x7a            ; 122
+
+2025-05-06 13:48:17,914 - INFO - [**] value to compare: 0x7a
+2025-05-06 13:48:17,954 - INFO - [*] hexdecimal value of input string : 78
+2025-05-06 13:48:18,010 - INFO - 
+ After Change the character :
+
+2025-05-06 13:48:18,047 - INFO - 
+ COpTMnPz_Kr9fKp1wu3IFJt 
+
+2025-05-06 13:48:18,289 - DEBUG - Valore di current_line_address : 0x555555400b95
+2025-05-06 13:48:18,289 - DEBUG - Value of rip register : 0x555555400b95
+2025-05-06 13:48:18,289 - DEBUG - Value of rip register , first break point  : 0x555555400b95
+2025-05-06 13:48:18,290 - DEBUG - Value of RDI register : 0x7fffffffd8f2
+2025-05-06 13:48:18,457 - DEBUG - 
+ Lines of assembly blocking 
+
+2025-05-06 13:48:18,458 - DEBUG -             ;-- rax:
+            0x7ffff7ffb0bb      56             push rsi
+            0x7ffff7ffb0bc      52             push rdx
+            0x7ffff7ffb0bd      8a07           mov al, byte [rdi]
+            0x7ffff7ffb0bf      3c72           cmp al, 0x72            ; 114
+
+2025-05-06 13:48:18,458 - INFO - [**] value to compare: 0x72
+2025-05-06 13:48:18,565 - INFO - [*] hexdecimal value of input string : 39
+2025-05-06 13:48:18,683 - INFO - 
+ After Change the character :
+
+2025-05-06 13:48:18,734 - INFO - 
+ COpTMnPz_KrrfKp1wu3IFJt 
+
+2025-05-06 13:48:18,972 - DEBUG - Valore di current_line_address : 0x555555400b95
+2025-05-06 13:48:18,973 - DEBUG - Value of rip register : 0x555555400b95
+2025-05-06 13:48:18,973 - DEBUG - Value of rip register , first break point  : 0x555555400b95
+2025-05-06 13:48:18,974 - DEBUG - Value of RDI register : 0x7fffffffd8fc
+2025-05-06 13:48:19,031 - DEBUG - 
+ Lines of assembly blocking 
+
+2025-05-06 13:48:19,032 - DEBUG -             ;-- rax:
+            0x7ffff7ffb165      56             push rsi
+            0x7ffff7ffb166      52             push rdx
+            0x7ffff7ffb167      8a07           mov al, byte [rdi]
+            0x7ffff7ffb169      3c21           cmp al, 0x21            ; 33
+
+2025-05-06 13:48:19,032 - INFO - [**] value to compare: 0x21
+2025-05-06 13:48:19,069 - INFO - [*] hexdecimal value of input string : 4a
+2025-05-06 13:48:19,113 - INFO - 
+ After Change the character :
+
+2025-05-06 13:48:19,138 - INFO - 
+ COpTMnPz_KrrfKp1wu3IF!t 
+
+2025-05-06 13:48:19,370 - DEBUG - Valore di current_line_address : 0x555555400b95
+2025-05-06 13:48:19,370 - DEBUG - Value of rip register : 0x555555400b95
+2025-05-06 13:48:19,370 - DEBUG - Value of rip register , first break point  : 0x555555400b95
+2025-05-06 13:48:19,371 - DEBUG - Value of RDI register : 0x7fffffffd8f1
+2025-05-06 13:48:19,425 - DEBUG - 
+ Lines of assembly blocking 
+
+2025-05-06 13:48:19,426 - DEBUG -             ;-- rax:
+            0x7ffff7ffb0aa      56             push rsi
+            0x7ffff7ffb0ab      52             push rdx
+            0x7ffff7ffb0ac      8a07           mov al, byte [rdi]
+            0x7ffff7ffb0ae      3c30           cmp al, 0x30            ; 48
+
+2025-05-06 13:48:19,426 - INFO - [**] value to compare: 0x30
+2025-05-06 13:48:19,463 - INFO - [*] hexdecimal value of input string : 72
+2025-05-06 13:48:19,510 - INFO - 
+ After Change the character :
+
+2025-05-06 13:48:19,537 - INFO - 
+ COpTMnPz_K0rfKp1wu3IF!t 
+
+2025-05-06 13:48:19,763 - DEBUG - Valore di current_line_address : 0x555555400b95
+2025-05-06 13:48:19,763 - DEBUG - Value of rip register : 0x555555400b95
+2025-05-06 13:48:19,763 - DEBUG - Value of rip register , first break point  : 0x555555400b95
+2025-05-06 13:48:19,764 - DEBUG - Value of RDI register : 0x7fffffffd8eb
+2025-05-06 13:48:19,826 - DEBUG - 
+ Lines of assembly blocking 
+
+2025-05-06 13:48:19,826 - DEBUG -             ;-- rax:
+            0x7ffff7ffb044      56             push rsi
+            0x7ffff7ffb045      52             push rdx
+            0x7ffff7ffb046      8a07           mov al, byte [rdi]
+            0x7ffff7ffb048      3c7b           cmp al, 0x7b            ; 123
+
+2025-05-06 13:48:19,826 - INFO - [**] value to compare: 0x7b
+2025-05-06 13:48:19,865 - INFO - [*] hexdecimal value of input string : 4d
+2025-05-06 13:48:19,913 - INFO - 
+ After Change the character :
+
+2025-05-06 13:48:19,940 - INFO - 
+ COpT{nPz_K0rfKp1wu3IF!t 
+
+2025-05-06 13:48:20,168 - DEBUG - Valore di current_line_address : 0x555555400b95
+2025-05-06 13:48:20,169 - DEBUG - Value of rip register : 0x555555400b95
+2025-05-06 13:48:20,169 - DEBUG - Value of rip register , first break point  : 0x555555400b95
+2025-05-06 13:48:20,169 - DEBUG - Value of RDI register : 0x7fffffffd8e9
+2025-05-06 13:48:20,230 - DEBUG - 
+ Lines of assembly blocking 
+
+2025-05-06 13:48:20,231 - DEBUG -             ;-- rax:
+            0x7ffff7ffb022      56             push rsi
+            0x7ffff7ffb023      52             push rdx
+            0x7ffff7ffb024      8a07           mov al, byte [rdi]
+            0x7ffff7ffb026      3c49           cmp al, 0x49            ; 73
+
+2025-05-06 13:48:20,231 - INFO - [**] value to compare: 0x49
+2025-05-06 13:48:20,277 - INFO - [*] hexdecimal value of input string : 70
+2025-05-06 13:48:20,326 - INFO - 
+ After Change the character :
+
+2025-05-06 13:48:20,360 - INFO - 
+ COIT{nPz_K0rfKp1wu3IF!t 
+
+2025-05-06 13:48:20,601 - DEBUG - Valore di current_line_address : 0x555555400b95
+2025-05-06 13:48:20,601 - DEBUG - Value of rip register : 0x555555400b95
+2025-05-06 13:48:20,601 - DEBUG - Value of rip register , first break point  : 0x555555400b95
+2025-05-06 13:48:20,602 - DEBUG - Value of RDI register : 0x7fffffffd8f5
+2025-05-06 13:48:20,668 - DEBUG - 
+ Lines of assembly blocking 
+
+2025-05-06 13:48:20,669 - DEBUG -             ;-- rax:
+            0x7ffff7ffb0ee      56             push rsi
+            0x7ffff7ffb0ef      52             push rdx
+            0x7ffff7ffb0f0      8a07           mov al, byte [rdi]
+            0x7ffff7ffb0f2      3c5f           cmp al, 0x5f            ; 95
+
+2025-05-06 13:48:20,669 - INFO - [**] value to compare: 0x5f
+2025-05-06 13:48:20,714 - INFO - [*] hexdecimal value of input string : 70
+2025-05-06 13:48:20,785 - INFO - 
+ After Change the character :
+
+2025-05-06 13:48:20,841 - INFO - 
+ COIT{nPz_K0rfK_1wu3IF!t 
+
+2025-05-06 13:48:21,123 - DEBUG - Valore di current_line_address : 0x555555400b95
+2025-05-06 13:48:21,123 - DEBUG - Value of rip register : 0x555555400b95
+2025-05-06 13:48:21,123 - DEBUG - Value of rip register , first break point  : 0x555555400b95
+2025-05-06 13:48:21,125 - DEBUG - Value of RDI register : 0x7fffffffd8ed
+2025-05-06 13:48:21,234 - DEBUG - 
+ Lines of assembly blocking 
+
+2025-05-06 13:48:21,234 - DEBUG -             ;-- rax:
+            0x7ffff7ffb066      56             push rsi
+            0x7ffff7ffb067      52             push rdx
+            0x7ffff7ffb068      8a07           mov al, byte [rdi]
+            0x7ffff7ffb06a      3c74           cmp al, 0x74            ; 116
+
+2025-05-06 13:48:21,234 - INFO - [**] value to compare: 0x74
+2025-05-06 13:48:21,281 - INFO - [*] hexdecimal value of input string : 50
+2025-05-06 13:48:21,347 - INFO - 
+ After Change the character :
+
+2025-05-06 13:48:21,386 - INFO - 
+ COIT{ntz_K0rfK_1wu3IF!t 
+
+2025-05-06 13:48:21,626 - DEBUG - Valore di current_line_address : 0x555555400b95
+2025-05-06 13:48:21,627 - DEBUG - Value of rip register : 0x555555400b95
+2025-05-06 13:48:21,627 - DEBUG - Value of rip register , first break point  : 0x555555400b95
+2025-05-06 13:48:21,627 - DEBUG - Value of RDI register : 0x7fffffffd8f3
+2025-05-06 13:48:21,698 - DEBUG - 
+ Lines of assembly blocking 
+
+2025-05-06 13:48:21,698 - DEBUG -             ;-- rax:
+            0x7ffff7ffb0cc      56             push rsi
+            0x7ffff7ffb0cd      52             push rdx
+            0x7ffff7ffb0ce      8a07           mov al, byte [rdi]
+            0x7ffff7ffb0d0      3c70           cmp al, 0x70            ; 112
+
+2025-05-06 13:48:21,698 - INFO - [**] value to compare: 0x70
+2025-05-06 13:48:21,749 - INFO - [*] hexdecimal value of input string : 66
+2025-05-06 13:48:21,814 - INFO - 
+ After Change the character :
+
+2025-05-06 13:48:21,852 - INFO - 
+ COIT{ntz_K0rpK_1wu3IF!t 
+
+2025-05-06 13:48:22,093 - DEBUG - Valore di current_line_address : 0x555555400b95
+2025-05-06 13:48:22,093 - DEBUG - Value of rip register : 0x555555400b95
+2025-05-06 13:48:22,093 - DEBUG - Value of rip register , first break point  : 0x555555400b95
+2025-05-06 13:48:22,094 - DEBUG - Value of RDI register : 0x7fffffffd8f6
+2025-05-06 13:48:22,188 - DEBUG - 
+ Lines of assembly blocking 
+
+2025-05-06 13:48:22,189 - DEBUG -             ;-- rax:
+            0x7ffff7ffb0ff      56             push rsi
+            0x7ffff7ffb100      52             push rdx
+            0x7ffff7ffb101      8a07           mov al, byte [rdi]
+            0x7ffff7ffb103      3c33           cmp al, 0x33            ; 51
+
+2025-05-06 13:48:22,189 - INFO - [**] value to compare: 0x33
+2025-05-06 13:48:22,236 - INFO - [*] hexdecimal value of input string : 31
+2025-05-06 13:48:22,283 - INFO - 
+ After Change the character :
+
+2025-05-06 13:48:22,316 - INFO - 
+ COIT{ntz_K0rpK_3wu3IF!t 
+
+2025-05-06 13:48:22,562 - DEBUG - Valore di current_line_address : 0x555555400b95
+2025-05-06 13:48:22,562 - DEBUG - Value of rip register : 0x555555400b95
+2025-05-06 13:48:22,562 - DEBUG - Value of rip register , first break point  : 0x555555400b95
+2025-05-06 13:48:22,563 - DEBUG - Value of RDI register : 0x7fffffffd8ec
+2025-05-06 13:48:22,666 - DEBUG - 
+ Lines of assembly blocking 
+
+2025-05-06 13:48:22,666 - DEBUG -             ;-- rax:
+            0x7ffff7ffb055      56             push rsi
+            0x7ffff7ffb056      52             push rdx
+            0x7ffff7ffb057      8a07           mov al, byte [rdi]
+            0x7ffff7ffb059      3c69           cmp al, 0x69            ; 105
+
+2025-05-06 13:48:22,667 - INFO - [**] value to compare: 0x69
+2025-05-06 13:48:22,732 - INFO - [*] hexdecimal value of input string : 6e
+2025-05-06 13:48:22,781 - INFO - 
+ After Change the character :
+
+2025-05-06 13:48:22,806 - INFO - 
+ COIT{itz_K0rpK_3wu3IF!t 
+
+2025-05-06 13:48:23,034 - DEBUG - Valore di current_line_address : 0x555555400b95
+2025-05-06 13:48:23,035 - DEBUG - Value of rip register : 0x555555400b95
+2025-05-06 13:48:23,035 - DEBUG - Value of rip register , first break point  : 0x555555400b95
+2025-05-06 13:48:23,035 - DEBUG - Value of RDI register : 0x7fffffffd8f4
+2025-05-06 13:48:23,101 - DEBUG - 
+ Lines of assembly blocking 
+
+2025-05-06 13:48:23,101 - DEBUG -             ;-- rax:
+            0x7ffff7ffb0dd      56             push rsi
+            0x7ffff7ffb0de      52             push rdx
+            0x7ffff7ffb0df      8a07           mov al, byte [rdi]
+            0x7ffff7ffb0e1      3c68           cmp al, 0x68            ; 104
+
+2025-05-06 13:48:23,101 - INFO - [**] value to compare: 0x68
+2025-05-06 13:48:23,147 - INFO - [*] hexdecimal value of input string : 4b
+2025-05-06 13:48:23,213 - INFO - 
+ After Change the character :
+
+2025-05-06 13:48:23,253 - INFO - 
+ COIT{itz_K0rph_3wu3IF!t 
+
+2025-05-06 13:48:23,496 - DEBUG - Valore di current_line_address : 0x555555400b95
+2025-05-06 13:48:23,496 - DEBUG - Value of rip register : 0x555555400b95
+2025-05-06 13:48:23,497 - DEBUG - Value of rip register , first break point  : 0x555555400b95
+2025-05-06 13:48:23,498 - DEBUG - Value of RDI register : 0x7fffffffd8f0
+2025-05-06 13:48:23,654 - DEBUG - 
+ Lines of assembly blocking 
+
+2025-05-06 13:48:23,654 - DEBUG -             ;-- rax:
+            0x7ffff7ffb099      56             push rsi
+            0x7ffff7ffb09a      52             push rdx
+            0x7ffff7ffb09b      8a07           mov al, byte [rdi]
+            0x7ffff7ffb09d      3c6d           cmp al, 0x6d            ; 109
+
+2025-05-06 13:48:23,655 - INFO - [**] value to compare: 0x6d
+2025-05-06 13:48:23,718 - INFO - [*] hexdecimal value of input string : 4b
+2025-05-06 13:48:23,760 - INFO - 
+ After Change the character :
+
+2025-05-06 13:48:23,781 - INFO - 
+ COIT{itz_m0rph_3wu3IF!t 
+
+2025-05-06 13:48:24,011 - DEBUG - Valore di current_line_address : 0x555555400b95
+2025-05-06 13:48:24,011 - DEBUG - Value of rip register : 0x555555400b95
+2025-05-06 13:48:24,011 - DEBUG - Value of rip register , first break point  : 0x555555400b95
+2025-05-06 13:48:24,012 - DEBUG - Value of RDI register : 0x7fffffffd8f7
+2025-05-06 13:48:24,148 - DEBUG - 
+ Lines of assembly blocking 
+
+2025-05-06 13:48:24,148 - DEBUG -             ;-- rax:
+            0x7ffff7ffb110      56             push rsi
+            0x7ffff7ffb111      52             push rdx
+            0x7ffff7ffb112      8a07           mov al, byte [rdi]
+            0x7ffff7ffb114      3c34           cmp al, 0x34            ; 52
+
+2025-05-06 13:48:24,148 - INFO - [**] value to compare: 0x34
+2025-05-06 13:48:24,241 - INFO - [*] hexdecimal value of input string : 77
+2025-05-06 13:48:24,327 - INFO - 
+ After Change the character :
+
+2025-05-06 13:48:24,355 - INFO - 
+ COIT{itz_m0rph_34u3IF!t 
+
+2025-05-06 13:48:24,590 - DEBUG - Valore di current_line_address : 0x555555400b95
+2025-05-06 13:48:24,590 - DEBUG - Value of rip register : 0x555555400b95
+2025-05-06 13:48:24,590 - DEBUG - Value of rip register , first break point  : 0x555555400b95
+2025-05-06 13:48:24,592 - DEBUG - Value of RDI register : 0x7fffffffd8fd
+2025-05-06 13:48:24,762 - DEBUG - 
+ Lines of assembly blocking 
+
+2025-05-06 13:48:24,763 - DEBUG -             ;-- rax:
+            0x7ffff7ffb176      56             push rsi
+            0x7ffff7ffb177      52             push rdx
+            0x7ffff7ffb178      8a07           mov al, byte [rdi]
+            0x7ffff7ffb17a      3c7d           cmp al, 0x7d            ; 125
+
+2025-05-06 13:48:24,763 - INFO - [**] value to compare: 0x7d
+2025-05-06 13:48:24,876 - INFO - [*] hexdecimal value of input string : 74
+2025-05-06 13:48:25,014 - INFO - 
+ After Change the character :
+
+2025-05-06 13:48:25,095 - INFO - 
+ COIT{itz_m0rph_34u3IF!} 
+
+2025-05-06 13:48:25,359 - DEBUG - Valore di current_line_address : 0x555555400b95
+2025-05-06 13:48:25,360 - DEBUG - Value of rip register : 0x555555400b95
+2025-05-06 13:48:25,360 - DEBUG - Value of rip register , first break point  : 0x555555400b95
+2025-05-06 13:48:25,361 - DEBUG - Value of RDI register : 0x7fffffffd8e8
+2025-05-06 13:48:25,529 - DEBUG - 
+ Lines of assembly blocking 
+
+2025-05-06 13:48:25,529 - DEBUG -             ;-- rax:
+            0x7ffff7ffb011      56             push rsi
+            0x7ffff7ffb012      52             push rdx
+            0x7ffff7ffb013      8a07           mov al, byte [rdi]
+            0x7ffff7ffb015      3c43           cmp al, 0x43            ; 67
+
+2025-05-06 13:48:25,529 - INFO - [**] value to compare: 0x43
+2025-05-06 13:48:25,640 - INFO - [*] hexdecimal value of input string : 4f
+2025-05-06 13:48:25,778 - INFO - 
+ After Change the character :
+
+2025-05-06 13:48:25,860 - INFO - 
+ CCIT{itz_m0rph_34u3IF!} 
+
+2025-05-06 13:48:26,144 - DEBUG - Valore di current_line_address : 0x555555400b95
+2025-05-06 13:48:26,144 - DEBUG - Value of rip register : 0x555555400b95
+2025-05-06 13:48:26,144 - DEBUG - Value of rip register , first break point  : 0x555555400b95
+2025-05-06 13:48:26,145 - DEBUG - Value of RDI register : 0x7fffffffd8f8
+2025-05-06 13:48:26,316 - DEBUG - 
+ Lines of assembly blocking 
+
+2025-05-06 13:48:26,317 - DEBUG -             ;-- rax:
+            0x7ffff7ffb121      56             push rsi
+            0x7ffff7ffb122      52             push rdx
+            0x7ffff7ffb123      8a07           mov al, byte [rdi]
+            0x7ffff7ffb125      3c43           cmp al, 0x43            ; 67
+
+2025-05-06 13:48:26,317 - INFO - [**] value to compare: 0x43
+2025-05-06 13:48:26,429 - INFO - [*] hexdecimal value of input string : 75
+2025-05-06 13:48:26,566 - INFO - 
+ After Change the character :
+
+2025-05-06 13:48:26,650 - INFO - 
+ CCIT{itz_m0rph_34C3IF!} 
+
+2025-05-06 13:48:26,934 - DEBUG - Valore di current_line_address : 0x555555400b95
+2025-05-06 13:48:26,934 - DEBUG - Value of rip register : 0x555555400b95
+2025-05-06 13:48:26,934 - DEBUG - Value of rip register , first break point  : 0x555555400b95
+2025-05-06 13:48:26,935 - DEBUG - Value of RDI register : 0x7fffffffd8fb
+2025-05-06 13:48:27,105 - DEBUG - 
+ Lines of assembly blocking 
+
+2025-05-06 13:48:27,105 - DEBUG -             ;-- rax:
+            0x7ffff7ffb154      56             push rsi
+            0x7ffff7ffb155      52             push rdx
+            0x7ffff7ffb156      8a07           mov al, byte [rdi]
+            0x7ffff7ffb158      3c21           cmp al, 0x21            ; 33
+
+2025-05-06 13:48:27,105 - INFO - [**] value to compare: 0x21
+2025-05-06 13:48:27,214 - INFO - [*] hexdecimal value of input string : 46
+2025-05-06 13:48:27,352 - INFO - 
+ After Change the character :
+
+2025-05-06 13:48:27,436 - INFO - 
+ CCIT{itz_m0rph_34C3I!!} 
+
+2025-05-06 13:48:27,716 - DEBUG - Valore di current_line_address : 0x555555400bc6
+2025-05-06 13:48:27,716 - DEBUG - Value of rip register : 0x555555400bc6
+2025-05-06 13:48:27,716 - DEBUG - Value of rip register , first break point  : 0x555555400bc6
+2025-05-06 13:48:27,718 - DEBUG - Value of RDI register : 0x7fffffffd8fa
+2025-05-06 13:48:27,832 - DEBUG - 
+ Lines of assembly blocking 
+
+2025-05-06 13:48:27,832 - DEBUG -             ;-- rax:
+            0x7ffff7ffb143      56             push rsi
+            0x7ffff7ffb144      52             push rdx
+            0x7ffff7ffb145      8a07           mov al, byte [rdi]
+            0x7ffff7ffb147      3c21           cmp al, 0x21            ; 33
+
+2025-05-06 13:48:27,832 - INFO - [**] value to compare: 0x21
+2025-05-06 13:48:27,896 - INFO - [*] hexdecimal value of input string : 49
+2025-05-06 13:48:27,974 - INFO - 
+ After Change the character :
+
+2025-05-06 13:48:28,022 - INFO - 
+ CCIT{itz_m0rph_34C3!!!} 
+
+2025-05-06 13:48:28,272 - DEBUG - Valore di RIP : 0x555555400bd6
+2025-05-06 13:48:28,349 - INFO - [***] Flag to submit to challenge : CCIT{itz_m0rph_34C3!!!}
+2025-05-06 13:48:28,690 - INFO - [***] Check the flag to the morph file ...
+2025-05-06 13:48:28,691 - INFO - [***] Run moprh file with a false ...
+2025-05-06 13:48:28,697 - ERROR - Invalid flag attempted: qOp6MnPxEKr9fKp1wuGIFJt
+2025-05-06 13:48:28,698 - INFO - [***] Run moprh with the true flag ...
+2025-05-06 13:48:28,704 - INFO - Successfully executed morph with flag: CCIT{itz_m0rph_34C3!!!}

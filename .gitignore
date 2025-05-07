@@ -1,6 +1,3 @@
-# Ghidra Files not allowed
-Reverse-Morph.rep/*
+morp-env/*
 
-Reverse-Morph.gpr
-Reverse-Morph.lock
-Reverse-Morph.lock~
+.vscode
